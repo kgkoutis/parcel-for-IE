@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 
+<script type="text/javascript">
+	var isIE = /MSIE \d|Trident.*rv:/.test(navigator.userAgent)
+
+	if (isIE) {
+		document.write('<script src="./goodie-bag.min.js"><\/script>');
+	}
+
+</script>
+
 <head>
 	<title>Parcel Sandbox</title>
 	<meta charset="UTF-8" />
